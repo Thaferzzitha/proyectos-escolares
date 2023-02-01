@@ -1,0 +1,92 @@
+#ejercicio{
+    text-align: center;
+}
+
+table.border{
+    color:rgb(154, 96, 172);
+}
+li{
+    color: #8267a7;
+}
+
+label{
+    color:rgb(154, 96, 172);
+}
+legend{
+    text-align: center;
+    color:#e26fa9;
+}
+.container{
+    position: relative;
+    width: 1700px;
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    max-width: 1200px;
+}
+
+
+.subtitulo-ejer{
+    text-align: justify;
+    font-weight: 300;
+    color: #6a83c9;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.contenedor-ejer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.contenedor-ejer img{
+    width: 40%;
+    border-radius: 5px;   
+    border: 5px solid #81a7d8;    
+    cursor: pointer;
+}
+
+.contenedor-ejer img:hover{
+    transform: scale(1.2);
+}
+
+.checklist-ejer{
+    width: 40%;
+}
+
+.ejer{
+    margin-bottom: 20px;
+}
+
+.n-ejer{
+    margin-bottom: 7px;
+    color: #eb9eee;
+}
+
+.letra-ejer{
+    display: inline-block;
+    background-image: linear-gradient(to top, rgb(170, 100, 235) 0%, rgb(170, 100, 235));
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+@keyframes mover-izquierda{
+    0%{
+        transform: translate(100%);
+    }
+}
+
+@keyframes mover-derecha{
+    0%{
+        transform: translate(-100%);
+    }
+}
+/* -------------------------Bienvenidos--------------------------------------*/

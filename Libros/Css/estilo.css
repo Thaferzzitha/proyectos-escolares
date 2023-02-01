@@ -1,0 +1,252 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(menú.css);
+@import url(menú2.css);
+@import url(banner.css);
+@import url(ejercicio.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Handlee', cursive;;
+}
+
+header{
+    width:100%;
+    height:50px;
+    background: rgb(236, 179, 229);
+    color: #fff;
+
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+
+}
+.contenedor {
+    width:98%;
+    margin:auto;
+}
+
+
+
+h1{    
+    float:left;
+}
+
+h2{
+    color: rgb(170, 100, 235);
+}
+
+h4{ 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(60, 95, 209);
+}
+
+header .contenedor{
+    display: table;
+}
+
+section{
+    width:100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos{
+    text-align: center;
+}
+
+
+footer .contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a{
+    color:rgb(69, 67, 185);
+    text-decoration: none;
+}
+
+@media(min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+}
+
+@media(min-width:768px){
+    .sociales{
+        width: auto;
+    }
+
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}
+
+.container{
+    position: relative;
+    width: 1700px;
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    max-width: 1200px;
+}
+
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #e68ce6;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-leyenda{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.contenedor-leyenda img{
+    width: 40%;
+    border-radius: 5px;   
+    border: 5px solid #81a7d8;    
+    cursor: pointer;
+}
+
+.contenedor-leyenda img:hover{
+    transform: scale(1.2);
+}
+
+.checklist-leyenda{
+    width: 40%;
+}
+
+.leyenda{
+    margin-bottom: 20px;
+}
+/* -------------------------Bienvenidos--------------------------------------*/
+.n-leyenda{
+    margin-bottom: 7px;
+    color: #eb9eee;
+}
+
+.letra{
+    display: inline-block;
+    background-image: linear-gradient(to top, rgb(170, 100, 235) 0%, rgb(170, 100, 235));
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+@keyframes mover-izquierda{
+    0%{
+        transform: translate(100%);
+    }
+}
+
+@keyframes mover-derecha{
+    0%{
+        transform: translate(-100%);
+    }
+}
+
+/*FOOTER*/
+footer{
+    background: #e78fd1;
+    padding-bottom: 0.1px;
+    flex-direction: column;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 45%;
+    color: #fff;
+    align-items: center;
+}
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.social-media-icon:hover{
+    background: white;
+    color: #e78fd1;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.creditos .subtitulo{
+    color: white;
+    font-size: 15px;
+}
+
